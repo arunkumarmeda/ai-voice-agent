@@ -7,9 +7,9 @@ load_dotenv()
 
 app = Flask(__name__)
 
-VAPI_PRIVATE_KEY = os.getenv("8a213255-a81f-48e4-b6e8-d01f4f206674")
-ASSISTANT_ID = os.getenv("4647645e-d524-4bd8-a122-79e6bc5f3dcf")
-PHONE_NUMBER_ID = os.getenv("b4934082-0db3-44d4-b63f-e01a0ef8d5eb")
+VAPI_PRIVATE_KEY = os.getenv("VAPI_PRIVATE_KEY")
+ASSISTANT_ID = os.getenv("ASSISTANT_ID")
+PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 
 FIRST_MESSAGE = "Hello, my name is Arun. This is a demo AI voice call. Thank you for answering."
 
