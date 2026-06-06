@@ -45,24 +45,7 @@ def call():
             "number": number
         },
         "assistantOverrides": {
-            "firstMessage": FIRST_MESSAGE,
-            "model": {
-                "messages": [
-                    {
-                        "role": "system",
-                        "content": f"""
-You are a professional AI voice assistant.
-
-When the call starts, clearly say:
-"{FIRST_MESSAGE}"
-
-Keep the call short and polite.
-Do not ask unnecessary questions.
-After speaking the introduction, wait for the user response.
-"""
-                    }
-                ]
-            }
+            "firstMessage": FIRST_MESSAGE
         }
     }
 
